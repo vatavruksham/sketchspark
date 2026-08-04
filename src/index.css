@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-surface-50 text-ink font-sans antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display tracking-tight;
+  }
+
+  ::selection {
+    @apply bg-primary/20 text-ink;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent;
+  }
+
+  .gradient-bg {
+    @apply bg-gradient-to-r from-primary to-accent;
+  }
+
+  /* Glowing CTA button effect */
+  .btn-glow {
+    position: relative;
+    box-shadow: 0 6px 20px rgba(249, 115, 22, 0.35);
+  }
+  .btn-glow:hover {
+    box-shadow: 0 8px 30px rgba(249, 115, 22, 0.55);
+  }
+
+  /* Frosted glassmorphism card */
+  .glass {
+    @apply border border-white/60 bg-white/60 backdrop-blur-xl;
+    box-shadow: 0 8px 32px rgba(28, 16, 7, 0.08);
+  }
+
+  .section-shell {
+    @apply rounded-3xl border border-white/60 bg-white/45 backdrop-blur-xl;
+    box-shadow: 0 18px 45px rgba(28, 16, 7, 0.08);
+  }
+}
+
+@layer utilities {
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}

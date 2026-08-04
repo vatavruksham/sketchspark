@@ -1,0 +1,69 @@
+{
+  "demo": {
+    "fox": {
+      "sketch": "/images/demo/demo-fox-sketch.jpg",
+      "illustrations": {
+        "Watercolor": "/images/demo/demo-fox-watercolor.jpg",
+        "Flat Vector": "/images/demo/demo-fox-flat-vector.jpg",
+        "Comic Ink": "/images/demo/demo-fox-comic-ink.jpg",
+        "Storybook": "/images/demo/demo-fox-storybook.jpg"
+      }
+    },
+    "portrait": {
+      "sketch": "/images/demo/demo-portrait-sketch.jpg",
+      "illustrations": {
+        "Watercolor": "/images/demo/demo-portrait-watercolor.jpg",
+        "Flat Vector": "/images/demo/demo-portrait-flat-vector.jpg",
+        "Comic Ink": "/images/demo/demo-portrait-comic-ink.jpg",
+        "Storybook": "/images/demo/demo-portrait-storybook.jpg"
+      }
+    },
+    "botanical": {
+      "sketch": "/images/demo/demo-botanical-sketch.jpg",
+      "illustrations": {
+        "Watercolor": "/images/demo/demo-botanical-watercolor.jpg",
+        "Flat Vector": "/images/demo/demo-botanical-flat-vector.jpg",
+        "Comic Ink": "/images/demo/demo-botanical-comic-ink.jpg",
+        "Storybook": "/images/demo/demo-botanical-storybook.jpg"
+      }
+    }
+  },
+  "hero": {
+    "sketch": "/images/hero/hero-subject-sketch.jpg",
+    "illustrations": {
+      "Storybook": "/images/hero/hero-subject-storybook.jpg"
+    }
+  },
+  "showcase": {
+    "forest-fox": {
+      "sketch": "/images/showcase/pairs/forest-fox-sketch.jpg",
+      "illustration": "/images/showcase/pairs/forest-fox-storybook.jpg",
+      "style": "Storybook"
+    },
+    "city-scene": {
+      "sketch": "/images/showcase/pairs/city-scene-sketch.jpg",
+      "illustration": "/images/showcase/pairs/city-scene-flat-vector.jpg",
+      "style": "Flat Vector"
+    },
+    "portrait-study": {
+      "sketch": "/images/showcase/pairs/portrait-study-sketch.jpg",
+      "illustration": "/images/showcase/pairs/portrait-study-comic-ink.jpg",
+      "style": "Comic Ink"
+    },
+    "botanical": {
+      "sketch": "/images/showcase/pairs/botanical-sketch.jpg",
+      "illustration": "/images/showcase/pairs/botanical-watercolor.jpg",
+      "style": "Watercolor"
+    },
+    "product-icon": {
+      "sketch": "/images/showcase/pairs/product-icon-sketch.jpg",
+      "illustration": "/images/showcase/pairs/product-icon-3d-render.jpg",
+      "style": "3D Render"
+    },
+    "landscape": {
+      "sketch": "/images/showcase/pairs/landscape-sketch.jpg",
+      "illustration": "/images/showcase/pairs/landscape-painterly.jpg",
+      "style": "Painterly"
+    }
+  }
+}
