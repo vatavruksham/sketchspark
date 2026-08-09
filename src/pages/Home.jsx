@@ -8,8 +8,7 @@ import Testimonials from '../components/sections/Testimonials';
 import CTABanner from '../components/sections/CTABanner';
 
 export default function Home() {
-  useDocumentTitle(
-    'AI Sketch Design Studio',
+  useDocumentTitle('AI Sketch Design Studio',
     'SketchSpark turns rough sketches into polished AI visuals with a live demo, style controls, and fast export-ready outputs for creators.'
   );
 

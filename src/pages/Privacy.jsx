@@ -38,8 +38,7 @@ const sections = [
 ];
 
 export default function Privacy() {
-  useDocumentTitle(
-    'Privacy Policy',
+  useDocumentTitle('Privacy Policy',
     'How SketchSpark collects, uses, and protects your personal information and your uploaded sketches and artwork.'
   );
 

@@ -55,8 +55,7 @@ function FeatureCard({ feature, index }) {
 }
 
 export default function Features() {
-  useDocumentTitle(
-    'Features',
+  useDocumentTitle('Features',
     'Explore SketchSpark features — multi-style artwork, HD resolution, batch processing, style consistency, color palette control, and commercial license.'
   );
 

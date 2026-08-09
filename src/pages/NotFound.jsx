@@ -2,8 +2,7 @@ import useDocumentTitle from '../hooks/useDocumentTitle';
 import Button from '../components/ui/Button';
 
 export default function NotFound() {
-  useDocumentTitle(
-    'Page Not Found',
+  useDocumentTitle('Page Not Found',
     'The page you are looking for does not exist.'
   );
 

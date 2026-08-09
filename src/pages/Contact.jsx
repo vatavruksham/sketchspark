@@ -9,8 +9,7 @@ import AnimateOnScroll from '../components/ui/AnimateOnScroll';
 import { validateContactForm } from '../utils/validation';
 
 export default function Contact() {
-  useDocumentTitle(
-    'Contact',
+  useDocumentTitle('Contact',
     'Get in touch with the SketchSpark team. Questions about the AI, pricing, or your account? We would love to hear from you.'
   );
 

@@ -118,8 +118,7 @@ function FaqItem({ faq, isOpen, onToggle }) {
 }
 
 export default function Pricing() {
-  useDocumentTitle(
-    'Pricing',
+  useDocumentTitle('Pricing',
     'Simple, transparent pricing for SketchSpark — Artist, Studio, and Agency plans. 30-day money-back guarantee.'
   );
 

@@ -30,8 +30,7 @@ function TeamMember({ member }) {
 }
 
 export default function About() {
-  useDocumentTitle(
-    'About',
+  useDocumentTitle('About',
     'Meet the Toronto-based team behind SketchSpark and our mission to make art accessible to everyone.'
   );
 

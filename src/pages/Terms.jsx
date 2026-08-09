@@ -42,8 +42,7 @@ const sections = [
 ];
 
 export default function Terms() {
-  useDocumentTitle(
-    'Terms of Service',
+  useDocumentTitle('Terms of Service',
     'The terms and conditions governing your use of SketchSpark, including content ownership, billing, and acceptable use.'
   );
 
