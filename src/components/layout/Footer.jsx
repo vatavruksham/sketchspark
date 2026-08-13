@@ -124,7 +124,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="mt-8 border-t border-surface-200 pt-8 text-center">
           <p className="text-sm text-ink-muted">
-            SketchSpark @ 2026 | All rights reserved.
+            © 2026 SketchSpark. All rights reserved.
           </p>
         </div>
       </div>

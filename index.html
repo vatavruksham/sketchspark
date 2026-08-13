@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="manifest" href="/manifest.json" />
+    <link rel="canonical" href="https://sketchspark.art/" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#f97316" />
     <meta
@@ -13,16 +14,18 @@
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
-    <meta
-      property="og:title" content="SketchSpark - AI Sketch to Artwork"
-    />
+    <meta property="og:url" content="https://sketchspark.art/" />
+    <meta property="og:title" content="SketchSpark - AI Sketch to Artwork" />
     <meta
       property="og:description"
       content="Turn every sketch into stunning AI artwork. Upload rough sketches, choose a style, and let SketchSpark create finished masterpieces in seconds."
     />
-    <meta property="og:image" content="/favicon.svg" />
+    <meta property="og:image" content="https://sketchspark.art/images/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://sketchspark.art/images/og.jpg" />
 
-    <!-- Fonts: Sora (display) + Inter (body) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -31,9 +34,86 @@
     />
 
     <title>SketchSpark - AI Sketch to Artwork</title>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "name": "SketchSpark",
+            "url": "https://sketchspark.art/",
+            "email": "support@sketchspark.art",
+            "logo": "https://sketchspark.art/favicon.svg",
+            "description": "AI sketch-to-artwork studio that turns rough doodles into finished illustrations."
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "SketchSpark",
+            "applicationCategory": "DesignApplication",
+            "operatingSystem": "Web",
+            "url": "https://sketchspark.art/",
+            "description": "AI creative studio that transforms sketches and line art into finished artwork with style-controlled generation.",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- Crawlable static HTML for non-JS bots (removed after React mounts) -->
+    <main
+      id="seo-content"
+      style="font-family: system-ui, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.6;"
+    >
+      <h1>SketchSpark</h1>
+      <p>AI sketch-to-artwork studio that turns rough doodles into finished illustrations.</p>
+      <p>
+        AI creative studio that transforms sketches and line art into finished artwork with style-controlled generation.
+        SketchSpark is an AI product company building software powered by machine
+        learning and accelerated compute - not a consulting or outsourced development firm.
+      </p>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/features">Features</a></li>
+          <li><a href="/pricing">Pricing</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/contact">Support</a></li>
+          <li><a href="/privacy">Privacy Policy</a></li>
+          <li><a href="/terms">Terms</a></li>
+        </ul>
+      </nav>
+      <p>Contact: <a href="mailto:support@sketchspark.art">support@sketchspark.art</a></p>
+    </main>
+
     <script type="module" src="/src/main.jsx"></script>
+
+    <noscript>
+      <main style="font-family: system-ui, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.6;">
+        <h1>SketchSpark</h1>
+        <p>AI sketch-to-artwork studio that turns rough doodles into finished illustrations.</p>
+        <p>
+          SketchSpark is an AI product company building software powered by machine
+          learning and accelerated compute - not a consulting or outsourced development firm.
+        </p>
+        <p>
+          <a href="/about">About</a> ·
+          <a href="/contact">Contact</a> ·
+          <a href="/contact">Support</a> ·
+          <a href="/privacy">Privacy Policy</a> ·
+          <a href="/terms">Terms</a> ·
+          <a href="/features">Features</a> ·
+          <a href="/pricing">Pricing</a>
+        </p>
+        <p><a href="mailto:support@sketchspark.art">support@sketchspark.art</a></p>
+      </main>
+    </noscript>
   </body>
 </html>
